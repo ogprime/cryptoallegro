@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/vib</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/vib" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vib" fill-rule="nonzero">
+            <circle id="Oval" fill="#FF1F43" cx="16" cy="16" r="16"></circle>
+            <polygon id="Shape" fill="#FFFFFF" points="7 7 11.2 7 18.4 19.775 18.4 7 22 7 22 25 17.2 25"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/sc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/sc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sc" fill-rule="nonzero">
+            <circle id="Oval" fill="#20EE82" cx="16" cy="16" r="16"></circle>
+            <path d="M16.0000108,7.5 C20.6944491,7.5 24.5,11.3054751 24.5,16.0000718 L24.5,24.5 L16.0000108,24.5 C11.3054648,24.5 7.5,20.6944531 7.5,16.0000718 C7.5,11.3054751 11.3054648,7.5 16.0000108,7.5 Z M21.1000905,21.1001005 L21.1000905,16.0771089 C21.1000905,13.2577519 18.84495,10.9139715 16.0256707,10.9000431 C13.193339,10.8861147 10.88606,13.193279 10.9000459,16.025703 C10.9140319,18.8449882 13.2577258,21.1001005 16.0771127,21.1001005 L21.1000905,21.1001005 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

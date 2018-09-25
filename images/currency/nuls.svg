@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/nuls</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/nuls" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nuls" fill-rule="nonzero">
+            <circle id="Oval" fill="#82BD39" cx="16" cy="16" r="16"></circle>
+            <path d="M14.403078,19.3599645 L16.0000008,21.463826 L16.0000008,26 L10.0000016,23.3368842 L10.0000016,11.6191744 C9.99958913,11.4458862 10.0769778,11.2808609 10.2123093,11.1664447 L10.8953861,10.5805593 C11.0269446,10.4658952 11.2032893,10.4109417 11.379775,10.4296112 C11.5562608,10.4482807 11.7159678,10.5387835 11.8184629,10.6782068 L17.2830776,17.8419885 L20.3015387,19.6884154 L20.3015387,9.80825566 L17.6338468,8.47669774 L17.504616,14.6728806 L16.0923085,12.7998225 L16.0276931,6 L22,8.77851753 L22,20.4429649 L20.6430771,21.5614736 L16.3692315,19.1735464 L11.6246168,12.9507324 L11.5600014,22.4047936 L14.3846164,23.8517532 L14.403078,19.3599645 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

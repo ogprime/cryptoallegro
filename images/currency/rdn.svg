@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/rdn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/rdn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rdn" fill-rule="nonzero">
+            <circle id="Oval" fill="#2A2A2A" cx="16" cy="16" r="16"></circle>
+            <path d="M10,6.006 L18.111,6.006 C18.209,5.976 18.259,6.066 18.323,6.116 C19.0875417,6.83812654 19.7733742,7.63927008 20.369,8.506 C21.2152979,9.71809827 21.8796696,11.0475155 22.341,12.452 C22.823,13.936 23.051,15.506 22.991,17.066 L18.856,17.066 C18.879,16.859 18.881,16.65 18.878,16.442 C18.835,14.971 18.381,13.528 17.666,12.25 C16.901,10.881 15.833,9.7 14.619,8.719 C13.297,7.65 11.809,6.806 10.259,6.124 C10.173,6.084 10.083,6.052 10,6.006 Z M13.002,13.333 C14.3892904,15.842736 15.774291,18.353737 17.157,20.866 C17.49,21.472 17.827,22.076 18.157,22.683 C16.436,23.785 14.72,24.897 13,26 L13,13.333 L13.002,13.333 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

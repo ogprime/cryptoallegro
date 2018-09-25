@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/tkn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/tkn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tkn" fill-rule="nonzero">
+            <circle id="Oval" fill="#24DD7B" cx="16" cy="16" r="16"></circle>
+            <path d="M13.092,7.913 L17.495,6 L17.459,11.053 L23,11.053 L23,14.553 L17.422,14.553 L17.422,20.616 C17.422,22.456 20.542,22.673 21.716,22.06 L22.78,25.236 C20.174,26.751 13.055,26.39 13.055,20.652 L13.055,7.912 L13.092,7.912 L13.092,7.913 Z M8.982,15.491 C7.887,15.491 7,14.425 7,13.11 C7,11.794 7.887,10.728 8.982,10.728 C10.076,10.728 10.963,11.794 10.963,13.11 C10.963,14.425 10.076,15.491 8.982,15.491 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

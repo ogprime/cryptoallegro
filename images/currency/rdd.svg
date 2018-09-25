@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/rdd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/rdd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rdd" fill-rule="nonzero">
+            <circle id="Oval" fill="#E30613" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(5.000000, 5.000000)" fill="#FFFFFF">
+                <path d="M10.361,22 C4.64,22 0,17.407 0,11.742 C0,6.077 4.639,1.484 10.361,1.484 C16.084,1.484 20.723,6.077 20.723,11.742 C20.723,17.407 16.083,22 10.36,22 L10.361,22 Z M12.15,4.423 C14.566,5.412 16.302,7.273 17.534,9.781 L18.464,9.134 C17.42,6.622 15.491,4.648 12.388,3.368 L12.15,4.423 Z" id="Shape" opacity="0.75"></path>
+                <path d="M21.992,4.321 C21.992,1.935 20.037,0 17.627,0 C15.217,0 13.262,1.935 13.262,4.321 C13.262,4.549 13.28,4.776 13.316,5.001 C14.769,5.847 15.936,7.061 16.869,8.577 C17.119,8.62 17.373,8.643 17.627,8.643 C20.037,8.643 21.992,6.708 21.992,4.321 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

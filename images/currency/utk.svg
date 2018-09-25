@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/utk</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/utk" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="utk" fill-rule="nonzero">
+            <circle id="Oval" fill="#30367A" cx="16" cy="16" r="16"></circle>
+            <path d="M14.3531764,22.2979461 L14.3531764,9.02771591 L10.5,9.02771591 L10.5,6 L21.5,6 L21.5,9.02771591 L17.6468236,9.02771591 L17.6468236,22.2979461 L14.3531764,22.2979461 Z M13.4662372,26 C11.4773434,26 10.5366504,25.0435536 10.5366504,23.0217768 L10.5366504,9.89631279 L13.4295869,9.89631279 L13.4295869,22.8881465 C13.4295869,23.2073744 13.5346513,23.3137837 13.8486228,23.3137837 L18.1880275,23.3137837 C18.5019991,23.3137837 18.6070635,23.2073744 18.6070635,22.8881465 L18.6070635,9.89631279 L21.5,9.89631279 L21.5,23.0217768 C21.5,25.0435536 20.5580853,26 18.5704131,26 L13.4662372,26 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

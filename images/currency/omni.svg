@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/omni</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/omni" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="omni" fill-rule="nonzero">
+            <circle id="Oval" fill="#1C347A" cx="16" cy="16" r="16"></circle>
+            <path d="M10.065,6.888 C8.79079532,7.719674 7.70427816,8.80823476 6.875,10.084 L6.875,6.888 L10.065,6.888 Z M25.069,9.998 C24.246773,8.75893212 23.1803519,7.70067767 21.935,6.888 L25.069,6.888 L25.069,9.998 Z M21.981,25.082 C23.2067459,24.2731499 24.256973,23.2256436 25.069,22.002 L25.069,25.082 L21.981,25.082 Z M6.875,21.916 C7.69415438,23.1762907 8.76445189,24.2540776 10.019,25.082 L6.875,25.082 L6.875,21.916 Z M26,16 C26,21.514 21.514,26 16,26 C10.486,26 6,21.514 6,16 C6,10.486 10.486,6 16,6 C21.514,6 26,10.486 26,16 Z M16,23.292 C20.02,23.292 23.292,20.021 23.292,16 C23.292,11.98 20.021,8.708 16,8.708 C11.98,8.708 8.708,11.979 8.708,16 C8.708,20.02 11.979,23.292 16,23.292 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

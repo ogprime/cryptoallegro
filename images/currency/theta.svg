@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/theta</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/theta" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="theta" fill-rule="nonzero">
+            <circle id="Oval" fill="#2AB8E6" cx="16" cy="16" r="16"></circle>
+            <path d="M10.9600847,6 L21.0399153,6 L22,6.9933219 L22,25.0066781 L21.0399153,26 L10.9600847,26 L10,25.0066781 L10,6.9933219 L10.9600847,6 Z M11.9201693,24.0133562 L20.0798307,24.0133562 L20.0798307,7.9866438 L11.9201693,7.9866438 L11.9201693,24.0133562 Z M19.0541414,18.8438492 L16.9667862,18.8438492 L16.9667862,21.1063752 L15.083299,21.1063752 L15.083299,18.8438492 L12.9959438,18.8438492 L12.9959438,16.8951575 L19.0541414,16.8951575 L19.0541414,18.8438492 Z M19.0541414,13.2605189 L19.0541414,15.2092107 L12.9959438,15.2092107 L12.9959438,13.2605189 L15.083299,13.2605189 L15.083299,10.9979929 L16.9667862,10.9979929 L16.9667862,13.2605189 L19.0541414,13.2605189 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

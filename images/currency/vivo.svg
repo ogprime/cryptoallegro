@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/vivo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/vivo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vivo" fill-rule="nonzero">
+            <circle id="Oval" fill="#408AF1" cx="16" cy="16" r="16"></circle>
+            <path d="M23.049,10.277 C23.2643249,9.91106655 23.6183536,9.64764414 24.0307222,9.5465291 C24.4430908,9.44541406 24.8788199,9.51518353 25.239,9.74 C25.989,10.21 26.225,11.21 25.765,11.977 C24.061,14.815 22.138,17.785 20.535,20.053 C18.195,23.363 17.688,24.5 16,24.5 C14.312,24.5 13.932,23.497 11.525,20.044 C10.095,17.994 8.302,15.249 6.255,12.008 C5.7782102,11.2537186 5.98883099,10.256928 6.73,9.76 C7.08466871,9.52647246 7.5186886,9.44626223 7.93339552,9.53760322 C8.34810244,9.62894421 8.70826184,9.88407585 8.932,10.245 C10.955,13.447 15.525,20.121 16.013,20.716 C16.523,20.112 21.385,13.049 23.049,10.276 L23.049,10.277 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

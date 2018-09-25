@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/tnt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/tnt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tnt" fill-rule="nonzero">
+            <circle id="Oval" fill="#FF4081" cx="16" cy="16" r="16"></circle>
+            <path d="M13.890625,21.5025869 L14.046875,25 C14.046875,25 15.921875,24.6820534 17.875,25 L18.03125,21.5025869 L13.890625,21.5025869 Z M11.625,18.8000405 C11.625,18.8000405 17.09375,18.3231205 20.296875,18.8000405 L20.609375,14.9846807 C17.5669124,14.7487421 14.5112126,14.7487421 11.46875,14.9846807 L11.625,18.8000405 Z M26,8.94369453 C26,8.94369453 15.53125,6.71806802 6,9.10266785 L6.703125,13.4744342 L7.5625,11.8052143 C7.5625,11.8052143 16.546875,10.4539411 24.59375,11.8052143 L25.375,13.4744342 L26,8.94369453 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

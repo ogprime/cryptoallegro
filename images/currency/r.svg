@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/r</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/r" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="r" fill-rule="nonzero">
+            <circle id="Oval" fill="#771A4E" cx="16" cy="16" r="16"></circle>
+            <polygon id="Shape" fill="#FFFFFF" points="10.5 24.638 13.967 22.826 13.967 10.745 18.919 13.523 15.205 15.456 15.205 19.443 23.5 25 23.5 21.255 18.424 17.752 22.633 15.577 22.633 11.711 13.967 7 10.5 8.812"></polygon>
+        </g>
+    </g>
+</svg>

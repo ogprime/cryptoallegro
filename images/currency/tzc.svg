@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/tzc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/tzc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tzc" fill-rule="nonzero">
+            <circle id="Oval" fill="#374851" cx="16" cy="16" r="16"></circle>
+            <path d="M17.7,15.4 L17.7,22.998 C17.904,22.948 18.104,22.891 18.3,22.825 L18.3,25.735 C16.9883347,26.0436422 15.6279228,26.0847947 14.3,25.856 L14.3,15.4 L10.8,15.4 L10.8,12.6 L21.2,12.6 L21.2,15.4 L17.7,15.4 Z M19.1,25.51 L19.1,22.5 C22.1363675,21.0515434 23.7649673,17.6935308 23.0224256,14.4123442 C22.2798839,11.1311575 19.3641572,8.80153864 16,8.80153864 C12.6358428,8.80153864 9.72011612,11.1311575 8.97757443,14.4123442 C8.23503274,17.6935308 9.86363252,21.0515434 12.9,22.5 L12.9,25.51 C8.895,24.205 6,20.44 6,16 C6,10.477 10.477,6 16,6 C21.523,6 26,10.477 26,16 C26,20.44 23.105,24.205 19.1,25.51 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/pivx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/pivx" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pivx" fill-rule="nonzero">
+            <circle id="Oval" fill="#5E4778" cx="16" cy="16" r="16"></circle>
+            <path d="M10.5,12.241 L16.653,12.241 L16.653,13.496 L10.5,13.496 L10.5,12.241 Z M22.5,12.831 C22.5,15.805 20.39,17.726 17.472,17.726 L13.43,17.726 L13.43,24 L11.83,24 L11.83,16.307 L17.255,16.307 C19.43,16.307 20.85,15.015 20.85,12.831 C20.85,10.673 19.43,9.418 17.28,9.418 L15.592,9.418 L11.549,9.431 L11.549,8 L17.459,8 C20.389,8 22.499,9.857 22.499,12.831 L22.5,12.831 Z" id="Shape" stroke="#FFFFFF" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

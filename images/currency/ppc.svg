@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/ppc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/ppc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ppc" fill-rule="nonzero">
+            <circle id="Oval" fill="#3CB054" cx="16" cy="16" r="16"></circle>
+            <path d="M9,7.5 C21.093,7.947 25.756,15.206 23.415,21.683 C22.752,23.486 22.047,24.473 20.565,25.5 C20.625,25.24 20.687,24.98 20.735,24.713 C21.611,19.66 19.95,13.579 11.823,10.22 C18.289,14.068 20.898,20.915 17.883,25.335 C12.75,26.142 9,21.759 9,16.709 L9,7.5 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

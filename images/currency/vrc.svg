@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/vrc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/vrc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vrc" fill-rule="nonzero">
+            <circle id="Oval" fill="#418BCA" cx="16" cy="16" r="16"></circle>
+            <path d="M20.265,8 L25,8 L16,26 L7,8 L11.704,8 L16.031,17.113 L20.265,8 Z M16,12.959 C15.212,12.959 14.573,12.303 14.573,11.494 C14.573,10.685 15.212,10.028 16,10.028 C16.788,10.028 17.427,10.685 17.427,11.494 C17.427,12.303 16.787,12.959 16,12.959 Z M22.465,16.999 C23.253,16.999 23.892,17.656 23.891,18.465 C23.891,19.275 23.253,19.93 22.465,19.93 C21.677,19.93 21.038,19.274 21.038,18.465 C21.038,17.656 21.677,17 22.465,17 L22.465,16.999 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
