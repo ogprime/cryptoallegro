@@ -5086,7 +5086,7 @@ body {
 .crypto .table > thead > tr > td,
 .crypto .table > thead > tr > th {
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 24px;
     vertical-align: top;
     border-top: none !important;
     border-bottom: none;
@@ -5100,6 +5100,42 @@ body {
     font-weight: 600;
     color: #76ddfb;
     text-decoration: none;
+}
+
+.crypto .asset-list-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+
+.crypto .pagination > li > a:focus,
+.crypto .pagination > li > a:hover,
+.crypto .pagination > li > span:focus,
+.crypto .pagination > li > span:hover,
+.crypto .pagination > li > a.active {
+    z-index: 2;
+    color: #f6f3ef;
+    background-color: #76ddfb;
+    border-color: #76ddfb;
+}
+
+.crypto .pagination-sm > li:first-child > a,
+.crypto .pagination-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.crypto .pagination > li > a {
+    z-index: 2;
+    color: #76ddfb;
+    background-color: #222529;
+    border-color: #f6f3ef;
+}
+
+.crypto .page {
+    color: #f6f3ef;
+    margin-right: 16px;
+    line-height: 29px;
 }
 
 /*---------------------------------------------------------------------------*

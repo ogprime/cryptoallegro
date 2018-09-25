@@ -76,7 +76,7 @@ body {
     
     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 24px;
     vertical-align: top;
     border-top: none !important;
     border-bottom: none;
@@ -90,6 +90,37 @@ body {
         font-weight: 600;
         color: $asset-link;
         text-decoration: none;
+    }
+    
+    .asset-list-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 16px;
+    }
+    
+    .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination>li>a.active {
+        z-index: 2;
+        color: $white;
+        background-color: $asset-link;
+        border-color: $asset-link;
+    }
+    
+    .pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    
+    .pagination>li>a {
+        z-index: 2;
+        color: $asset-link;
+        background-color: $body-bg;
+        border-color: $white;
+    }
+    
+    .page {
+        color: $white;
+        margin-right: 16px;
+        line-height: 29px;
     }
 }
 
