@@ -1,0 +1,216 @@
+/*
+Creator: Deepak Shinde: deepak.shinde@Mastercard.com
+Name: nsif.scss
+Input: requires _variables.scss reference
+Output: nsif.css/ nsif.min.css - NSIF Application specific CSS
+*/
+
+// Variables: EDITABLE
+@import "_inc/_variables";
+//
+
+.nsif {
+    .ul {
+        margin: initial;
+        padding: 0 0 0 20px;
+    }
+
+    .li {
+        list-style: disc;
+        display: list-item;
+    }
+    
+    .features {
+        margin-left: 40px;
+        li {
+            list-style: disc;
+        }
+    }
+    
+    .instructions {
+        margin-left: 20px;
+        li {
+            list-style: disc;
+        }
+        .help {
+            font-size: 16px;
+        }
+    }
+    
+    .brand-tabs {
+        background-color: $white;
+        border-bottom: 1px solid $light_gray;
+        
+        .tab-nav li.active span {
+            border-bottom: 3px solid $orange;
+            padding: 0 0 12px 0;
+        }
+    }
+    
+    .responsive-table thead th {
+        text-align: left;
+    }
+    
+    .info-ovelay {
+        position: relative;
+        display: block;
+        top: 4px;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    th:last-child .info-ovelay {
+        visibility: hidden;
+    }
+    
+    .no-items {
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 5em;
+    }
+    
+    .summary-container {
+        max-height: 425px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: $white;
+        position: relative;
+    }
+    
+    .nsif-summary {
+        a {
+            color: $black;
+        }
+    }
+    
+    .detailLabel {
+        color: $medium_dark_gray;
+        margin-right: 16px;
+    }
+    
+    .summary-item {
+        margin-bottom: 8px;
+    }
+    
+    .alternate {
+        background-color: $disabled_fill;
+        border-top: 1px solid $card_border;
+        border-bottom: 1px solid $card_border
+    }
+    
+    .h4-line-height {
+        line-height: 40px;
+    }
+    
+    .suggestedPanel{
+        position: relative;
+    }
+    
+    .toTop {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 1rem;
+        align-self: flex-end;
+        height: 46px;
+        width: 46px;
+        bottom: 24px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .help-icon {
+        cursor: pointer;
+    }
+    
+    .orange-heading {
+        background-color: $orange;
+        color: $white;
+        margin: 0;
+        padding: 16px 0 16px 16px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    .select-ica {
+        .modal-body {
+            text-align: left;
+            padding: 0 16px;
+            overflow: hidden;
+        }
+        
+        ul {
+            margin-left: 40px;
+            li {
+                font-weight: bold;
+                list-style: disc;
+                line-height: 24px;
+            }
+        }
+        .regular {
+            font-weight: normal;
+        }
+    }
+        
+    .select-ica {
+        .modal-body {
+            text-align: left;
+            padding: 0 16px;
+            overflow: hidden;
+        }
+        
+        ul {
+            margin-left: 40px;
+            li {
+                font-weight: bold;
+                list-style: disc;
+                line-height: 24px;
+            }
+        }
+        .regular {
+            font-weight: normal;
+        }
+    }
+    
+    .divider {
+        border-right: 1px $medium-gray solid;
+    }
+    
+    @media (max-width: 767px) {
+        .summary-item {
+            width: 50%;
+            float: left;
+        }
+        
+    }
+    
+    @media (max-width: 990px) {
+        .select-tab {
+            margin-top: 8px;
+        }
+        
+        .brand-tabs .tab-nav li.active span {
+            padding: 0 0 5px 0;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .summary-item {
+            width: 50%;
+            float: left;
+        }
+        
+    }
+    
+    @media (max-width: 990px) {
+        .select-tab {
+            margin-top: 8px;
+        }
+        
+        .brand-tabs .tab-nav li.active span {
+            padding: 0 0 5px 0;
+        }
+    }
+}

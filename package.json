@@ -1,0 +1,38 @@
+{
+  "name": "NSIF",
+  "version": "1.0.0",
+  "authors": [
+    "Deepak Shinde <deepak.shinde@Mastercard.com>"
+  ],
+  "description": "Front-end automation for Mastercard Connect - NSIF",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://fusion.mastercard.int/stash/projects/DCONS/repos/uxg-nsif-dev"
+  },
+  "readme": "README.md",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "lib"
+  ],
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-cache": "*",
+    "gulp-clean": "*",
+    "gulp-clean-css": "*",
+    "gulp-csscomb": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "gulp.spritesmith": "*",
+    "path": "*",
+    "run-sequence": "*"
+  }
+}

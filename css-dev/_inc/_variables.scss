@@ -1,0 +1,144 @@
+//Route
+
+$route: "..";
+
+//Font path
+$font-path: "#{$route}/fonts";
+
+// Sprite Path: WATCHOUT - It's SVG!
+$spriteFile: "#{$route}/images/sprite.svg";
+$spriteTabsFile: "#{$route}/images/tab-sprite.svg";
+$CalendarSvg: "#{$route}/images/icon-calendar.svg";
+
+// Global settings + Overwrite the Bootstrap
+$line-height-base: 1.428571429;
+
+//Name specific Colors
+$white: #FFF;
+$black: #000;
+$blue: #5aa3e8;
+$light_white: #EFEFEF;
+$orange: #e87600;
+$orange_hover: #FFB340;
+$teal: #378F7B;
+$light_teal: #54B6BB;
+$light_red: #e37e81;
+$red: #CC0000;
+$yellow: #FFC81F;
+$amber: #CCA019;
+$brand_green: #4CAF50;
+$green: #719425;
+$dark_green: #4F6D06;
+$dark_bright_green: #0f4b1d;
+$medium_green: #3C6A00;
+$bright_green: #9bbe3c;
+$medium_light_green: #4FD0AD;
+$light_green: #CCD6B6;
+$order_green: #719425;
+$dark_gray: #575451;
+$slate_gray: #4f5b69;
+$slate_dark_gray: #333;
+$medium_gray: #999;
+$medium_dark_gray: #8F8F8F;
+$medium_light_gray: #B0B0B0;
+$light_gray: #CCC;
+$disabled_gray: #DEDEDE;
+$disabled_fill: #F7F7F7;
+$brand_gray: #F0EDE9;
+$brand_black: #141413;
+$row_hover: #ffeebd;
+$purple_medium: #AA85D5;
+
+$brand-black: #141413;
+$brand-dark-orange: #C26F00;
+$brand-header-bg: #EBE7E1;
+
+//Pills
+$ICA: #628120;
+$BIN: #D1E3AB;
+$RNG: #D1E3AB;
+$RTN: #7F640F;
+$Proc: #AA6100;
+$RPPS: #B24813;
+$BILR: #BD262A;
+$PAR: #D1E3AB;
+
+// Use specific colors
+$red_notification:#FF3333;
+$input_card_gray: #F9F9F9;
+$body-bg-color: #FAF9F7;
+$active_row:#e8eff5;
+$alert_warning: #F8B966;
+$alert_sign: #FFC20D;
+$card_border: #E6E6E6;
+$carousel_gray: #BFBBB3;
+$nav_sidemenu: #e1ffff;
+$carousel_bg_gray: #F3F3F3;
+$my_case: #fffae9;
+
+//Font-family and sizes
+$font-family-mark: "MarkOffc";
+$font-family-fa: "FontAwesome";
+$font-medium: "MarkOffc-m";
+
+$header_fs: 36px;
+$section_header: 30px;
+$subhead_fs: 20px;
+$body_header: 18px;
+$body_text: 14px;
+
+// Input values saved/ autofill - background color
+$auto-fill-color: $white;
+
+// INPUT THEME = clean or leave blank for Default
+$theme: clean;
+//$theme: ;
+
+// iPAD SHOULD BE TREATED AS DESKTOP
+$screen-sm: 769px;
+
+// iPad SHOW MENU- HEADER: Select one of these
+$grid-float-breakpoint: 991px;
+//$grid-float-breakpoint: 768px;
+
+$ipad-breakpoint: $grid-float-breakpoint;
+
+// B2B Framework treats IPAD as DESKTOP!
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  576px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  768px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  992px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
