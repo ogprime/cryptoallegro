@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/kmd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/kmd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kmd" fill-rule="nonzero">
+            <circle id="Oval" fill="#326464" cx="16" cy="16" r="16"></circle>
+            <path d="M16,5 L23.482,8.207 C23.705,8.302 23.882,8.482 23.976,8.707 L27,16 L23.977,23.38 C23.8828515,23.6088973 23.7015227,23.7909457 23.473,23.886 L16,27 L8.527,23.886 C8.29828655,23.7907119 8.11692905,23.6082749 8.023,23.379 L5,16 L8.024,8.706 C8.11710076,8.48124856 8.29438885,8.30180717 8.518,8.206 L16,5 Z M16,9.475 L11.432,11.432 L9.475,16 L11.432,20.568 L16,22.525 L20.568,20.568 L22.525,16 L20.568,11.432 L16,9.475 Z M16,11.432 L19.263,12.737 L20.568,16 L19.263,19.263 L16,20.568 L12.737,19.263 L11.432,16 L12.737,12.737 L16,11.432 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

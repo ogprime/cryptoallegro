@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/mth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/mth" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mth" fill-rule="nonzero">
+            <circle id="Oval" fill="#104FCA" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(7.000000, 9.000000)" fill="#FFFFFF">
+                <path d="M0,0.56757699 L4.2345,7.67086224 L4.2345,15 C1.89585,15 0,13.1639163 0,10.898925 L0,0.56757699 Z" id="Shape" fill-opacity="0.5"></path>
+                <path d="M13.76487,7.66320318 L17.9967786,0.56426496 L17.99937,0.56426496 L17.99937,10.898925 C17.99937,13.1639163 16.10352,15 13.76487,15 L13.76487,7.66320318 Z" id="Shape" fill-opacity="0.6"></path>
+                <path d="M8.99739174,7.45835186 L6.88014,11.0099651 C6.441,10.8992737 5.96889,10.47362 5.46381,9.73300407 L-8.8817842e-16,0.56757699 C2.025,-0.56487507 4.61511,0.10720511 5.78439,2.06871005 L8.99739174,7.45835186 Z" id="Shape" fill-opacity="0.8"></path>
+                <path d="M12.21561,2.05990703 C13.38489,0.09840209 15.975,-0.57367809 18,0.55886113 L12.53619,9.7242882 C11.77857,10.8352121 10.47789,11.5682162 9.00036,11.5682162 C8.34067053,11.5691347 7.6899617,11.4201387 7.10055,11.1332074 L6.88014,11.0099651 L12.21561,2.05990703 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

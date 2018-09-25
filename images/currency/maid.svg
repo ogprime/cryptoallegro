@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/maid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/maid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="maid" fill-rule="nonzero">
+            <circle id="Oval" fill="#5592D7" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(6.000000, 6.000000)" fill="#FFFFFF">
+                <path d="M14.246,6.667 L14.246,19.64 L3.29,13.333 C0.05,11.436 0.256,10.256 0.256,7.693 L11.519,14.205 L11.519,8.256 L14.245,6.666 L14.246,6.667 Z" id="Shape"></path>
+                <path d="M11.52,14.205 L0.257,7.692 L11.211,1.385 C14.451,-0.462 15.377,0.308 17.64,1.59 L6.377,8.103 L11.52,11.077 L11.52,14.205 Z" id="Shape" opacity="0.6"></path>
+                <path d="M6.377,8.103 L17.64,1.59 L17.64,14.205 C17.64,17.949 16.509,18.359 14.246,19.641 L14.246,6.667 L9.05,9.64 L6.376,8.102 L6.377,8.103 Z" id="Shape" opacity="0.2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

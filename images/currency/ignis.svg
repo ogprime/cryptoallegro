@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/ignis</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/ignis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ignis" fill-rule="nonzero">
+            <circle id="Oval" fill="#F9C011" cx="16" cy="16" r="16"></circle>
+            <path d="M14.812,6 C16.33,6.887 17.758,7.914 19.262,8.825 L13.718,18.496 C12.982,17.205 12.292,15.888 11.565,14.59 C12.612,11.715 13.808,8.89 14.812,6 Z M10,26 C13.139,20.291 16.4,14.645 19.504,8.921 C20.334,10.378 21.165,11.834 22,13.291 C19.594,17.523 17.17,21.745 14.783,25.986 C13.188,25.986 11.595,25.966 10,26 Z M15.082,25.977 C16.412,23.702 17.665,21.387 19.012,19.122 C19.815,20.149 20.63,21.17 21.427,22.202 C19.3195856,23.4730397 17.2045474,24.7313958 15.082,25.977 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

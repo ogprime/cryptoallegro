@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/gbx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/gbx" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gbx" fill-rule="nonzero">
+            <circle id="Oval" fill="#1666AF" cx="16" cy="16" r="16"></circle>
+            <path d="M15.699,11.006 L15.699,13.066 L10.999,13.066 C10.389,13.066 9.638,13.28 9.079,13.676 C8.386,14.168 7.999,14.905 7.999,16.003 C7.999,17.101 8.386,17.838 9.079,18.33 C9.638,18.726 10.389,18.94 10.999,18.94 L12.999,18.94 L12.999,21 L10.999,21 C10.004,21 8.858,20.675 7.945,20.027 C6.717,19.155 6,17.789 6,16.003 C6,14.217 6.717,12.851 7.945,11.979 C8.84209354,11.3559014 9.90579585,11.0168964 10.998,11.006 L15.699,11.006 Z M10.699,17.188 L10.699,15.128 L15.699,15.128 L15.699,21 L13.7,21 L13.7,17.188 L10.699,17.188 Z M19,13.06 L19,11 L26,11 L26,21 L16.998,21 L16.998,13.067 L18.998,13.067 L18.998,18.939 L24,18.939 L24,13.061 L19,13.06 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

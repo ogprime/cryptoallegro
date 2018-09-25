@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/mnx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/mnx" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mnx" fill-rule="nonzero">
+            <circle id="Oval" fill="#00ADEF" cx="16" cy="16" r="16"></circle>
+            <path d="M14.863,26.986 C9.32,26.405 5,21.708 5,16 C5,10.292 9.32,5.595 14.863,5.014 L14.863,8.384 C11.1054787,8.96317068 8.3331016,12.1981062 8.336,16 C8.3331016,19.8018938 11.1054787,23.0368293 14.863,23.616 L14.863,26.986 Z M17.038,5 C22.268,5.479 26.441,9.617 26.986,14.837 L23.623,14.837 C23.1091073,11.4561842 20.4270627,8.8193495 17.038,8.363 L17.038,5 Z M27,17.017 C26.518,22.307 22.316,26.517 17.038,27 L17.038,23.637 C20.4813638,23.1734491 23.1877398,20.4613374 23.644,17.017 L27,17.017 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
