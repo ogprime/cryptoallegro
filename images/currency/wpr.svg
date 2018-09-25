@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/wpr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/wpr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wpr" fill-rule="nonzero">
+            <circle id="Oval" fill="#FFE600" cx="16" cy="16" r="16"></circle>
+            <path d="M3.99258472,5.42510978 C4.78273696,4.52861505 5.67171451,3.72130791 6.64247794,3.02022781 L11.0946216,18.9383085 L13.0682755,10.5 L16.8074357,10.5 L18.7799363,18.9383085 L21.1168394,10.5 L24.8658015,10.5 L24.9009733,10.6503317 L28.9753618,25.363626 C28.2362149,26.3860883 27.3791816,27.3177178 26.4241923,28.1385841 L22.9884375,15.728524 L21.0286217,22.8074627 L20.99345,22.9572139 L16.8074357,22.9572139 L14.9381439,16.0251244 L13.0682755,22.9572139 L8.88168455,22.9572139 L8.84708939,22.8074627 L3.99258472,5.42510978 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

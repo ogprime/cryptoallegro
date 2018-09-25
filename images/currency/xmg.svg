@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/xmg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/xmg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xmg" fill-rule="nonzero">
+            <circle id="Oval" fill="#004A80" cx="16" cy="16" r="16"></circle>
+            <path d="M23,19.54 L21.517,25 L9,25 L9,24.087 L15.79,16.368 L9.137,7.992 L9.137,7 L21.468,7 L21.898,11.252 L21.108,11.252 C20.587,10.283 20.145,9.558 19.78,9.077 C19.416,8.596 19.091,8.297 18.805,8.178 C18.603,8.08 18.325,8.01 17.971,7.968 C17.5483016,7.92147397 17.123239,7.89977007 16.698,7.903 L13.195,7.903 L18.444,14.443 L18.444,14.758 L11.956,22.123 L19.361,22.123 C19.725,22.123 20.059,22.036 20.361,21.863 C20.663,21.689 20.925,21.471 21.146,21.209 C21.367,20.954 21.572,20.663 21.761,20.336 C21.9503874,20.0072348 22.1167853,19.6657516 22.259,19.314 L23,19.54 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

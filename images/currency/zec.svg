@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/zec</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/zec" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zec" fill-rule="nonzero">
+            <circle id="Oval" fill="#ECB244" cx="16" cy="16" r="16"></circle>
+            <path d="M15.096,19.846 L21.393,19.846 L21.393,23.196 L17.518,23.196 C17.582,24.154 17.615,25.043 17.679,26 L14.418,26 L14.418,23.23 L10.542,23.23 C10.542,22.137 10.413,21.043 10.607,20.017 C10.704,19.47 11.285,18.991 11.64,18.513 C12.8682442,16.9781163 14.1062694,15.4510852 15.354,13.932 C15.839,13.35 16.323,12.803 16.872,12.154 L10.832,12.154 L10.832,8.804 L14.418,8.804 L14.418,6 L17.55,6 L17.55,8.735 L21.458,8.735 C21.458,9.863 21.587,10.957 21.393,11.983 C21.296,12.53 20.715,13.009 20.328,13.487 C19.0997558,15.0218837 17.8617306,16.5489148 16.614,18.068 C16.1268125,18.6764735 15.620561,19.2694347 15.096,19.846 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

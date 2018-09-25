@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/xpm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/xpm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xpm" fill-rule="nonzero">
+            <circle id="Oval" fill="#FFD81B" cx="16" cy="16" r="16"></circle>
+            <path d="M24,15.562 C24,19.985 20.574,21.489 17.69,21.489 L17.69,22.642 L19.915,22.642 L19.915,24.204 L17.691,24.204 L17.691,26 L14.211,26 L14.211,24.204 L12.084,24.204 L12.084,22.642 L14.207,22.642 L14.207,21.474 C13.284,21.474 8,21.255 8,15.241 L8,8 L11.455,8 L11.455,15.518 C11.455,18.657 14.221,18.628 14.221,18.628 L14.221,8 L17.691,8 L17.691,18.628 C17.691,18.628 20.545,18.788 20.545,15.475 L20.545,8 L24,8 L24,15.562 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

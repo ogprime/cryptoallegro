@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/xzc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/xzc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xzc" fill-rule="nonzero">
+            <circle id="Oval" fill="#23B852" cx="16" cy="16" r="16"></circle>
+            <path d="M18.725,19.148 L22.115,19.148 L22.115,22.112 L11.93,22.112 L24.573,9.46 C24.982691,9.04539004 25.1082762,8.4276681 24.893,7.886 C24.6644077,7.34732477 24.1351684,6.99817658 23.55,7 L8.45,7 C7.641,7 7,7.642 7,8.452 L7,19.148 L13.275,12.868 L9.885,12.868 L9.885,9.888 L20.053,9.888 L7.427,22.54 C7.01730897,22.95461 6.89172382,23.5723319 7.107,24.114 C7.336,24.649 7.855,25 8.45,25 L23.55,25 C23.9349107,25.0000004 24.3040273,24.8469584 24.5760126,24.574598 C24.8479979,24.3022375 25.0005309,23.9329103 25,23.548 L25,12.868 L18.725,19.148 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

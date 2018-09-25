@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/wings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/wings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wings" fill-rule="nonzero">
+            <circle id="Oval" fill="#0DC9F7" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(6.000000, 9.000000)" fill="#FFFFFF">
+                <polygon id="Shape" fill-opacity="0.305" points="12.904 6.739 9.859 9.103 8.612 4.778 1.388 2.843 10.869 3.33"></polygon>
+                <polygon id="Shape" fill-opacity="0.7" points="2.27 14.993 18.586 2.33 20 5.476 18.145 4.963 18.08 8.227"></polygon>
+                <polygon id="Shape" points="16.796 8.78 12.049 0.619 0 -2.22044605e-16 9.183 2.461 11.673 10.951"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/xmr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/xmr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xmr" fill-rule="nonzero">
+            <circle id="Oval" fill="#FF6600" cx="16" cy="16" r="16"></circle>
+            <path d="M15.97,5.235 C21.955,5.235 26.795,10.075 26.795,16.059 C26.7909471,17.2252511 26.6026246,18.3835359 26.237,19.491 L23.011,19.491 L23.011,10.397 L15.971,17.437 L8.931,10.397 L8.931,19.491 L5.704,19.491 C5.33871503,18.3834812 5.15073022,17.2251977 5.147,16.059 C5.147,10.075 9.987,5.235 15.971,5.235 L15.97,5.235 Z M14.358,19.02 L16,20.635 L17.613,19.021 L20.664,15.941 L20.664,21.661 L25.211,21.661 C23.2495153,24.887017 19.7465268,26.855363 15.971,26.853 C12.069,26.853 8.637,24.771 6.731,21.661 L11.277,21.661 L11.277,15.941 L14.357,19.021 L14.358,19.02 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
