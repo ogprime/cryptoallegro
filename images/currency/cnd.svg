@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/cnd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/cnd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cnd" fill-rule="nonzero">
+            <circle id="Oval" fill="#383939" cx="16" cy="16" r="16"></circle>
+            <polygon id="Shape" fill="#FFFFFF" points="19.473 11.479 22.14 10.868 23.173 9.167 22.153 7.494 20.847 6.592 18.164 6 16.509 6.933 13.861 6.461 10.225 8.98 9.942 11.922 8.399 12.566 8.577 15.295 7.5 16.153 8.576 19.225 8.738 19.547 9.876 22.71 12.215 23.538 13.949 25.302 15.943 26 16.845 25.74 18.276 25.575 20.374 24.974 23.5 23.209 22.682 19.977 21.108 19.357 20.324 20.254 18.119 20.796 14.912 20.288 13.877 19.091 14.237 17.92 12.721 15.521 13.996 13.965 14.132 11.32 15.958 10.272 17.21 9.772 18.91 10.079"></polygon>
+        </g>
+    </g>
+</svg>

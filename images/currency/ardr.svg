@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/ardr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/ardr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ardr" fill-rule="nonzero">
+            <circle id="Oval" fill="#3C87C7" cx="16" cy="16" r="16"></circle>
+            <path d="M15.883,17.19 L17.652,19.502 L12.5,23 L15.883,17.19 Z M16,6 L18.727,10.474 L11.455,23 L6,23 L16,6 Z M16,15.842 L19.636,13.158 L26,23 L21.455,23 L16,15.842 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

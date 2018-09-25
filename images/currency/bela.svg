@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/bela</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/bela" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bela" fill-rule="nonzero">
+            <circle id="Oval" fill="#13A0F6" cx="16" cy="16" r="16"></circle>
+            <path d="M8.297,11.568 C7.49920302,11.1495494 6.99957902,10.3228778 7,9.422 C6.53184902,8.53433547 6.66118606,7.44968823 7.32493882,6.69699577 C7.98869158,5.94430331 9.048641,5.68030536 9.98789371,6.03374278 C10.9271464,6.3871802 11.5501136,7.28445362 11.553,8.288 C12.9184524,7.48949834 14.4722099,7.06973182 16.054,7.072 C20.994,7.072 25,11.086 25,16.036 C25,20.986 20.995,25 16.054,25 C11.113,25 7.108,20.987 7.108,16.036 C7.108,14.409 7.541,12.884 8.297,11.568 Z M16.054,20.446 C18.484,20.446 20.454,18.472 20.454,16.036 C20.454,13.6 18.484,11.626 16.054,11.626 C13.624,11.626 11.654,13.601 11.654,16.036 C11.654,18.471 13.624,20.446 16.054,20.446 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

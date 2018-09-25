@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/ela</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/ela" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ela" fill-rule="nonzero">
+            <circle id="Oval" fill="#3FBADF" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(6.000000, 7.000000)" fill="#FFFFFF">
+                <path d="M5,15.1190142 L10,12.2992189 L10,17.9341094 L5,15.1190142 Z M5,6.11901422 L10,3.29921893 L10,8.93410943 L5,6.11901422 Z" id="Shape" fill-opacity="0.4"></path>
+                <path d="M20,12.2299995 L15,15.1163186 L15,9.43000031 L20,12.2299995 Z M20,3.22999954 L15,6.11631863 L15,0.430000305 L20,3.22999954 Z" id="Shape" fill-opacity="0.7"></path>
+                <path d="M5,15.1163186 L5,9.43270374 L10,12.303919 L5,15.1163186 Z M5,6.11631863 L5,0.432703737 L10,3.30391901 L5,6.11631863 Z" id="Shape" fill-opacity="0.8"></path>
+                <path d="M15,15.1163186 L10,12.303919 L15,9.43000031 L15,15.1163186 Z M15,6.11631863 L10,3.30391901 L15,0.430000305 L15,6.11631863 Z" id="Shape"></path>
+                <path d="M15,15.1163186 L10,17.9341094 L10,12.303919 L15,15.1163186 Z M15,6.11631863 L10,8.93410943 L10,3.30391901 L15,6.11631863 Z" id="Shape" fill-opacity="0.6"></path>
+                <path d="M5,9.43270374 L5,15.1163186 L-1.2244898e-05,12.2308745 L5,9.43270374 Z M5,0.432703737 L5,6.11631863 L-1.2244898e-05,3.23087454 L5,0.432703737 Z" id="Shape" fill-opacity="0.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

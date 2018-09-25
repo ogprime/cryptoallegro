@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/cny</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/cny" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cny" fill-rule="nonzero">
+            <circle id="Oval" fill="#FF4314" cx="16" cy="16" r="16"></circle>
+            <path d="M9.171,8 L22.987,8 L22.987,9.925 L9.17,9.925 L9.171,8 Z M7.631,13.641 L24.704,13.641 L24.704,15.586 L19.474,15.586 L19.474,22.093 C19.474,22.593 19.691,22.843 20.144,22.843 L22.316,22.843 C22.553,22.843 22.75,22.69 22.868,22.401 C23.007,22.093 23.105,21.149 23.145,19.59 L25,20.168 C24.862,22.343 24.605,23.633 24.25,24.038 C23.895,24.422 23.382,24.634 22.69,24.634 L19.553,24.634 C18.151,24.634 17.461,23.922 17.461,22.516 L17.461,15.586 L14.539,15.586 L14.539,15.971 C14.441,18.416 13.889,20.379 12.882,21.843 C11.895,23.19 10.316,24.249 8.105,25 L7,23.306 C9.132,22.574 10.553,21.65 11.303,20.572 C12.053,19.378 12.447,17.857 12.526,15.971 L12.526,15.586 L7.632,15.586 L7.631,13.641 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

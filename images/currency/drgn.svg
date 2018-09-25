@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/drgn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/drgn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="drgn" fill-rule="nonzero">
+            <circle id="Oval" fill="#C91111" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(9.000000, 5.000000)" fill="#FFFFFF">
+                <polygon id="Shape" opacity="0.6" points="0.4 15.78 3.218 15.78 3.146 8.453 13.64 21.776 13.607 6.044 10.833 6.044 10.905 13.445 0.404 0.087"></polygon>
+                <polygon id="Shape" points="0.4 4.953 0.416 0.102 13.599 16.854 13.654 21.796"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

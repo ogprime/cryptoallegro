@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/burst</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/burst" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="burst" fill-rule="nonzero">
+            <circle id="Oval" fill="#2D2D2D" cx="16" cy="16" r="16"></circle>
+            <path d="M11.706,19.296 L4,16.77 L9.155,16.77 L9.665,14.327 L14.243,14.33 L15.385,8 L19.991,8 C23.109,8 24.373,9.255 23.906,11.845 L23.806,12.4 C23.533,13.909 22.844,14.912 21.66,15.491 C22.833,16.091 23.227,17.226 22.932,18.861 L22.704,20.127 C22.248,22.653 20.39,24 17.372,24 L12.497,24 L13.76,17.007 L12.23,17.007 L11.706,19.296 Z M16.772,16.549 L15.828,21.779 L17.773,21.779 C18.927,21.779 19.568,21.267 19.786,20.059 L20.031,18.706 C20.309,17.163 19.775,16.549 18.262,16.549 L16.772,16.549 Z M17.915,10.22 L17.091,14.784 L18.503,14.784 C19.791,14.784 20.544,14.234 20.775,12.954 L20.932,12.088 C21.157,10.841 20.691,10.22 19.51,10.22 L18.1,10.22 L17.915,10.22 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

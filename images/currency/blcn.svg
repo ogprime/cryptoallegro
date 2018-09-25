@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/blcn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/blcn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blcn" fill-rule="nonzero">
+            <circle id="Oval" fill="#2AABE4" cx="16" cy="16" r="16"></circle>
+            <path d="M7.9,7 L14.1,7 C14.5970563,7 15,7.40294373 15,7.9 L15,14.1 C15,14.5970563 14.5970563,15 14.1,15 L7.9,15 C7.40294373,15 7,14.5970563 7,14.1 L7,7.9 C7,7.40294373 7.40294373,7 7.9,7 Z M17.9,7 L24.1,7 C24.5970563,7 25,7.40294373 25,7.9 L25,14.1 C25,14.5970563 24.5970563,15 24.1,15 L17.9,15 C17.4029437,15 17,14.5970563 17,14.1 L17,7.9 C17,7.40294373 17.4029437,7 17.9,7 Z M17.9,17 L24.1,17 C24.5970563,17 25,17.4029437 25,17.9 L25,24.1 C25,24.5970563 24.5970563,25 24.1,25 L17.9,25 C17.4029437,25 17,24.5970563 17,24.1 L17,17.9 C17,17.4029437 17.4029437,17 17.9,17 Z M7.9,17 L14.1,17 C14.5970563,17 15,17.4029437 15,17.9 L15,24.1 C15,24.5970563 14.5970563,25 14.1,25 L7.9,25 C7.40294373,25 7,24.5970563 7,24.1 L7,17.9 C7,17.4029437 7.40294373,17 7.9,17 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>currency/block</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="currency/block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="block" fill-rule="nonzero">
+            <circle id="Oval" fill="#101341" cx="16" cy="16" r="16"></circle>
+            <g id="Group" transform="translate(5.000000, 7.000000)" fill="#FFFFFF">
+                <path d="M6.022,0 L16.25,0 L21.5,9 L16.25,18 L5.931,18 L11.091,9 L6.021,0 L6.022,0 Z M11.452,3.166 L14.803,9 L11.453,14.834 L14.441,14.834 L17.789,9 L14.439,3.166 L11.453,3.166 L11.452,3.166 Z" id="Shape"></path>
+                <polygon id="Shape" opacity="0.5" points="7.113 4.026 4.211 9 7.087 13.93 5.248 17.139 0.5 9 5.289 0.789"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
