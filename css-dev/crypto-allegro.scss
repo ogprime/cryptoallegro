@@ -1,216 +1,234 @@
 /*
-Creator: Deepak Shinde: deepak.shinde@Mastercard.com
-Name: nsif.scss
+Creator: Michael Torpea
+Name: crypto-allegro.scss
 Input: requires _variables.scss reference
-Output: nsif.css/ nsif.min.css - NSIF Application specific CSS
+Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
 */
 
 // Variables: EDITABLE
 @import "_inc/_variables";
 //
 
-.nsif {
-    .ul {
-        margin: initial;
-        padding: 0 0 0 20px;
-    }
+body {
+    background: $body-bg;
+    font-family: $font-family-display;
+    font-weight: 400;
+}
 
-    .li {
-        list-style: disc;
-        display: list-item;
+.crypto {
+    .navbar-inverse {
+        background-color: $nav-bg;
     }
     
-    .features {
-        margin-left: 40px;
-        li {
-            list-style: disc;
-        }
-    }
-    
-    .instructions {
-        margin-left: 20px;
-        li {
-            list-style: disc;
-        }
-        .help {
-            font-size: 16px;
-        }
-    }
-    
-    .brand-tabs {
-        background-color: $white;
-        border-bottom: 1px solid $light_gray;
-        
-        .tab-nav li.active span {
-            border-bottom: 3px solid $orange;
-            padding: 0 0 12px 0;
-        }
-    }
-    
-    .responsive-table thead th {
-        text-align: left;
-    }
-    
-    .info-ovelay {
-        position: relative;
-        display: block;
-        top: 4px;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    th:last-child .info-ovelay {
-        visibility: hidden;
-    }
-    
-    .no-items {
-        text-align: center;
-        width: 100%;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 5em;
-    }
-    
-    .summary-container {
-        max-height: 425px;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        background-color: $white;
-        position: relative;
-    }
-    
-    .nsif-summary {
-        a {
-            color: $black;
-        }
-    }
-    
-    .detailLabel {
-        color: $medium_dark_gray;
-        margin-right: 16px;
-    }
-    
-    .summary-item {
-        margin-bottom: 8px;
-    }
-    
-    .alternate {
-        background-color: $disabled_fill;
-        border-top: 1px solid $card_border;
-        border-bottom: 1px solid $card_border
-    }
-    
-    .h4-line-height {
-        line-height: 40px;
-    }
-    
-    .suggestedPanel{
-        position: relative;
-    }
-    
-    .toTop {
-        position: -webkit-sticky;
-        position: sticky;
-        bottom: 1rem;
-        align-self: flex-end;
-        height: 46px;
-        width: 46px;
-        bottom: 24px;
-        float: right;
-        cursor: pointer;
-    }
-    
-    .help-icon {
-        cursor: pointer;
-    }
-    
-    .orange-heading {
-        background-color: $orange;
+    .table {
         color: $white;
-        margin: 0;
-        padding: 16px 0 16px 16px;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+        font-weight: 200; 
+        font-size: 13px;
+        letter-spacing: 2px;
     }
     
-    .select-ica {
-        .modal-body {
-            text-align: left;
-            padding: 0 16px;
-            overflow: hidden;
-        }
-        
-        ul {
-            margin-left: 40px;
-            li {
-                font-weight: bold;
-                list-style: disc;
-                line-height: 24px;
-            }
-        }
-        .regular {
-            font-weight: normal;
-        }
-    }
-        
-    .select-ica {
-        .modal-body {
-            text-align: left;
-            padding: 0 16px;
-            overflow: hidden;
-        }
-        
-        ul {
-            margin-left: 40px;
-            li {
-                font-weight: bold;
-                list-style: disc;
-                line-height: 24px;
-            }
-        }
-        .regular {
-            font-weight: normal;
-        }
+    td {
+        font-weight: 200;
+        letter-spacing: 3px;
     }
     
-    .divider {
-        border-right: 1px $medium-gray solid;
+    th {
+        font-size: 10px;
+        color: $th-color;
+        text-transform: uppercase;
+        font-weight: normal;
     }
     
-    @media (max-width: 767px) {
-        .summary-item {
-            width: 50%;
-            float: left;
-        }
-        
+    .table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: $alt-row;
     }
     
-    @media (max-width: 990px) {
-        .select-tab {
-            margin-top: 8px;
-        }
-        
-        .brand-tabs .tab-nav li.active span {
-            padding: 0 0 5px 0;
-        }
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none !important;
+    border-bottom: none;
     }
     
-    @media (max-width: 767px) {
-        .summary-item {
-            width: 50%;
-            float: left;
-        }
-        
+    .right-align {
+        text-align: right;
     }
-    
-    @media (max-width: 990px) {
-        .select-tab {
-            margin-top: 8px;
-        }
-        
-        .brand-tabs .tab-nav li.active span {
-            padding: 0 0 5px 0;
-        }
-    }
+}
+
+
+/*---------------------------------------------------------------------------*
+ * SF UI Display
+ *---------------------------------------------------------------------------*/
+
+/** Black */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 900;
+  src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
+}
+
+/** Bold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
+/** Heavy */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 800;
+  src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf");
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
+}
+
+/** Thin */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 300;
+  src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
+}
+
+/** Ultralight */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 100;
+  src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Text
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  src: url("https://sf.abarba.me/SF-UI-Text-Bold.otf");
+}
+
+/** Bold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-BoldItalic.otf");
+}
+
+/** Heavy */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  src: url("https://sf.abarba.me/SF-UI-Text-Heavy.otf");
+}
+
+/** Heavy Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-HeavyItalic.otf");
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Text-Light.otf");
+}
+
+/** Light Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-HeavyItalic.otf");
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Text-Medium.otf");
+}
+
+/** Medium Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-MediumItalic.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
+}
+
+/** Regular Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-RegularItalic.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  src: url("https://sf.abarba.me/SF-UI-Text-Semibold.otf");
+}
+
+/** Semibold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-SemiboldItalic.otf");
+}
+
+/** Ultrathin */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  src: url("https://sf.abarba.me/SF-UI-Text-Ultrathin.otf");
+}
+
+/** Ultrathin Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  font-style: italic;
+  src: url("https://sf.abarba.me/SF-UI-Text-UltrathinItalic.otf");
 }

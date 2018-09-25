@@ -1,0 +1,229 @@
+/*
+Creator: Michael Torpea
+Name: crypto-allegro.scss
+Input: requires _variables.scss reference
+Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
+*/
+body {
+    background: #222529;
+    font-family: "SF Display";
+    font-weight: 400;
+}
+
+.crypto .navbar-inverse {
+    background-color: #2d3136;
+}
+
+.crypto .table {
+    color: #f6f3ef;
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.crypto td {
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.crypto th {
+    font-size: 10px;
+    color: #b4bac6;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.crypto .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #393e44;
+}
+
+.crypto .table > tbody > tr > td,
+.crypto .table > tbody > tr > th,
+.crypto .table > tfoot > tr > td,
+.crypto .table > tfoot > tr > th,
+.crypto .table > thead > tr > td,
+.crypto .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none !important;
+    border-bottom: none;
+}
+
+.crypto .right-align {
+    text-align: right;
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Display
+ *---------------------------------------------------------------------------*/
+/** Black */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 900;
+    src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
+}
+
+/** Bold */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
+/** Heavy */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 800;
+    src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf");
+}
+
+/** Light */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+/** Regular */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 600;
+    src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
+}
+
+/** Thin */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 300;
+    src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
+}
+
+/** Ultralight */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 100;
+    src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Text
+ *---------------------------------------------------------------------------*/
+/** Bold */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Text-Bold.otf");
+}
+
+/** Bold Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-BoldItalic.otf");
+}
+
+/** Heavy */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    src: url("https://sf.abarba.me/SF-UI-Text-Heavy.otf");
+}
+
+/** Heavy Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-HeavyItalic.otf");
+}
+
+/** Light */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Text-Light.otf");
+}
+
+/** Light Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-HeavyItalic.otf");
+}
+
+/** Medium */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Text-Medium.otf");
+}
+
+/** Medium Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-MediumItalic.otf");
+}
+
+/** Regular */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
+}
+
+/** Regular Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-RegularItalic.otf");
+}
+
+/** Semibold */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    src: url("https://sf.abarba.me/SF-UI-Text-Semibold.otf");
+}
+
+/** Semibold Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-SemiboldItalic.otf");
+}
+
+/** Ultrathin */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    src: url("https://sf.abarba.me/SF-UI-Text-Ultrathin.otf");
+}
+
+/** Ultrathin Italic */
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    font-style: italic;
+    src: url("https://sf.abarba.me/SF-UI-Text-UltrathinItalic.otf");
+}
