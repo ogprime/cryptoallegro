@@ -7,6 +7,9 @@ Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
 
 // Variables: EDITABLE
 @import "_inc/_variables";
+@import "_inc/font-awesome/fontawesome.scss";
+@import "_inc/font-awesome/solid.scss";
+
 //
 
 body {
@@ -18,6 +21,34 @@ body {
 .crypto {
     .navbar-inverse {
         background-color: $nav-bg;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a {
+        line-height: 32px;
+        letter-spacing: 1px;
+    }
+    
+    .navbar-form {
+        margin-top: 15px;
+    }
+    
+    .navbar .form-control {
+        background-color: $alt-row;
+        color: $input-text;
+        border: none;
+    }
+    
+    .navbar-brand {
+        padding: 15px 10px;
+    }
+    
+    .navbar-brand img {
+        height: 30px;
+        width: auto;
+    }
+    
+    .username {
+        padding-right: 18px;
     }
     
     .table {
@@ -53,6 +84,12 @@ body {
     
     .right-align {
         text-align: right;
+    }
+    
+    .asset-link {
+        font-weight: 600;
+        color: $asset-link;
+        text-decoration: none;
     }
 }
 
