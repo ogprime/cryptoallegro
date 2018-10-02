@@ -5552,6 +5552,20 @@ body {
     top: -7px !important;
 }
 
+@media (max-width: 480px) {
+    .crypto .btn {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .crypto .table-responsive {
+        border: none;
+    }
+}
+
 /*---------------------------------------------------------------------------*
  * SF UI Display
  *---------------------------------------------------------------------------*/

@@ -14,3 +14,4 @@ Changelog: DEV 10/02/2018 - Michael Torpea
 3. Added slider functionality
     3a. Slider Range is used to mark CA defaults. Start of range is CA default value.
 4. Slider CSS created/modified
+5. Mobile view clean up - still work to do
