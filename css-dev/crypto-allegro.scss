@@ -9,6 +9,7 @@ Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
 @import "_inc/_variables";
 @import "_inc/font-awesome/fontawesome.scss";
 @import "_inc/font-awesome/solid.scss";
+@import "bootstrap-slider.scss"; 
 
 //
 
@@ -16,9 +17,14 @@ body {
     background: $body-bg;
     font-family: $font-family-display;
     font-weight: 400;
+    color: $white;
 }
 
 .crypto {
+    h1,h2,h3,h4,h5,h6 {
+        text-transform: uppercase;
+    }
+    
     .navbar-inverse {
         background-color: $nav-bg;
     }
@@ -121,6 +127,32 @@ body {
         color: $white;
         margin-right: 16px;
         line-height: 29px;
+    }
+    
+    .btn {
+        min-width: 150px;
+        margin-left: 15px;
+        white-space: normal;
+        min-height: 44px;
+        height: inherit;
+        margin-right: 0;
+    }
+    
+    .btn-success {
+        background-color: $success;
+    }
+    
+    .btn.secondary {
+        color: $secondary;
+        background-color: transparent;
+        border: 2px solid $secondary;
+    }
+    
+    .category1 {
+        background: $white;
+        width: 1px !important;
+        height: 17px !important;
+        top: -7px !important;
     }
 }
 
