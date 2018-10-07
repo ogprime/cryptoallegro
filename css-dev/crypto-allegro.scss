@@ -9,10 +9,10 @@ Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
 @import "_inc/_variables";
 @import "_inc/font-awesome/fontawesome.scss";
 @import "_inc/font-awesome/solid.scss";
-@import "bootstrap-slider.scss"; 
+@import "bootstrap-slider.scss";
+@import "sidebar.scss";
 
 //
-
 body {
     background: $body-bg;
     font-family: $font-family-display;
@@ -23,6 +23,14 @@ body {
 .crypto {
     h1,h2,h3,h4,h5,h6 {
         text-transform: uppercase;
+    }
+    
+    .error {
+        color: $red_notification;
+    }
+    
+    .success {
+        color: $success;
     }
     
     .navbar-inverse {
@@ -167,6 +175,143 @@ body {
         .table-responsive {
             border: none;
         }
+    }
+    
+    /* Set background color*/
+    .sidebar, #sidebar {
+        background: $body-bg;
+        height: 100%;
+        width: 80px !important;
+    }
+    
+    #sidebar {
+        width: 40px !important;
+    }
+    
+    .sidebar li.inactive {
+        opacity: .3;
+    }
+    
+    .sidebar::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .sidebar::-webkit-scrollbar-track {
+        background-color: $alt-row; 
+    }
+
+    .sidebar::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: $blue; 
+    }
+    
+    .asset-detail-logo, .asset-detail-logo img {
+        height: 64px;
+        width: 64px;
+        display: inline-block;
+    }
+    
+    .asset-detail-logo {
+        margin-right: 16px;
+    }
+        
+    .asset-name {
+        font-size: 32px;
+        line-height: 64px;
+        font-weight: 600;
+    }
+    
+    .asset-detail {
+        font-size: 18px;
+        color: $white;
+        font-weight: 600;
+    }
+    
+    .asset-currency, .asset-direction {
+        font-weight: 200;
+    }
+    
+    .asset-ticker {
+        font-size: 20px;
+        color: $secondary;
+        margin-left: 8px;
+        font-weight: 400;
+    }
+    
+    .rating-title {
+        font-size: 11px;
+        color: $secondary;
+        display: block;
+        text-transform: uppercase;
+    }
+    
+    .rating, .score {
+        font-size: 36px;
+        display: block;
+        font-weight: 200;
+    }
+    
+    .asset-detail-box {
+        background-color: $alt-row;
+        border-radius: 4px;
+        padding: 24px 16px;
+        margin-bottom: 16px;
+    }
+    
+    .offset {
+        padding-left: 16px;
+    }
+    
+    .asset-description {
+        height: 150px;
+        overflow-y: scroll;
+        p {
+            padding-right: 16px;
+        }
+    }
+    
+    .asset-description::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .asset-description::-webkit-scrollbar-track {
+        background-color: $alt-row; 
+    }
+
+    .asset-description::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: $blue; 
+    }
+    
+    .col-gutters {
+        margin-right: 16px;
+        &.col-md-12 {
+          width: calc(100% - 16px);
+        }
+        &.col-md-8 {
+          width: calc(66.66666667% - 16px);
+        }
+        &.col-md-6 {
+          width: calc(50% - 16px);
+        }
+        &.col-md-4 {
+          width: calc(33.33333333% - 16px);
+        }
+        &.col-md-3 {
+          width: calc(25% - 16px);
+        }
+    }
+    
+    .full-height {
+        height: 100%;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+    .full-span {
+        max-height: 375px;
     }
 }
 

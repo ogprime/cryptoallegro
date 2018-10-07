@@ -34,5 +34,8 @@
     "gulp.spritesmith": "*",
     "path": "*",
     "run-sequence": "*"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.2"
   }
 }
