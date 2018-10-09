@@ -170,11 +170,46 @@ body {
             margin-left: 0;
             margin-bottom: 16px;
         }
+        
+        .row {
+            margin-left: -8px;
+            margin-right: -8px;
+        }
     }
     
     @media (max-width: 767px) {
         .table-responsive {
             border: none;
+        }
+    }
+    
+    
+    @media (min-width: 1023px) {
+        .col-gutters {
+            margin-right: 16px;
+            &.col-md-12 {
+              width: calc(100% - 16px);
+            }
+            &.col-md-8 {
+              width: calc(66.66666667% - 16px);
+            }
+            &.col-md-6 {
+              width: calc(50% - 16px);
+            }
+            &.col-md-4 {
+              width: calc(33.33333333% - 16px);
+            }
+            &.col-md-3 {
+              width: calc(25% - 16px);
+            }
+        }
+        
+        .offset {
+            padding-left: 16px;
+        }
+        
+        .float-right {
+            float: right;
         }
     }
     
@@ -269,10 +304,6 @@ body {
         margin-bottom: 16px;
     }
     
-    .offset {
-        padding-left: 16px;
-    }
-    
     .asset-description {
         height: 150px;
         overflow-y: scroll;
@@ -294,27 +325,24 @@ body {
         background-color: $blue; 
     }
     
-    .col-gutters {
-        margin-right: 16px;
-        &.col-md-12 {
-          width: calc(100% - 16px);
-        }
-        &.col-md-8 {
-          width: calc(66.66666667% - 16px);
-        }
-        &.col-md-6 {
-          width: calc(50% - 16px);
-        }
-        &.col-md-4 {
-          width: calc(33.33333333% - 16px);
-        }
-        &.col-md-3 {
-          width: calc(25% - 16px);
-        }
-    }
-    
     .full-height {
         height: 100%;
+        .content {
+            max-height: 687px;
+            overflow-y: auto;
+            &::-webkit-scrollbar {
+                width: 3px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: $alt-row; 
+            }
+
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background-color: $blue; 
+            }
+        }
     }
     
     .clearfix {
