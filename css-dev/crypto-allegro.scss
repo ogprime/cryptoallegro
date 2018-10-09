@@ -16,7 +16,8 @@ Output: crypto-allegro.css/ crypto-allegro.min.css - Crypto Allegro specific CSS
 body {
     background: $body-bg;
     font-family: $font-family-display;
-    font-weight: 400;
+    font-weight: 200;
+    letter-spacing: .5px;
     color: $white;
 }
 
@@ -243,14 +244,24 @@ body {
         color: $secondary;
         display: block;
         text-transform: uppercase;
+        letter-spacing: 1.5px;
     }
     
     .rating, .score {
         font-size: 36px;
         display: block;
         font-weight: 200;
+        letter-spacing: .25;
     }
     
+    .asset-detail-box-title {
+        font-size: 13px;
+        color: $white;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-weight: 500;
+    }
     .asset-detail-box {
         background-color: $alt-row;
         border-radius: 4px;

@@ -5511,7 +5511,8 @@ readers do not read off random characters that represent icons */
 body {
     background: #222529;
     font-family: "SF Display";
-    font-weight: 400;
+    font-weight: 200;
+    letter-spacing: 0.5px;
     color: #f6f3ef;
 }
 
@@ -5758,6 +5759,7 @@ body {
     color: #b4b0a9;
     display: block;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .crypto .rating,
@@ -5765,6 +5767,16 @@ body {
     font-size: 36px;
     display: block;
     font-weight: 200;
+    letter-spacing: 0.25;
+}
+
+.crypto .asset-detail-box-title {
+    font-size: 13px;
+    color: #f6f3ef;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 500;
 }
 
 .crypto .asset-detail-box {

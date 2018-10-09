@@ -334,7 +334,7 @@
 
                 <div class="row offset">
                     <div class="col-md-8 asset-detail-box col-gutters">
-                        <span class="rating-title">Description-Content</span>
+                        <span class="asset-detail-box-title">Description-Content</span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <div class="asset-description">
@@ -345,7 +345,7 @@
                     </div>
 
                     <div class="col-md-4 asset-detail-box col-gutters full-height pull-right">
-                        <span class="rating-title">Description-Content</span>
+                        <span class="asset-detail-box-title">Twitter feed - bitcoin</span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <div>
@@ -362,49 +362,49 @@
                     </div>
 
                     <div class="col-md-8 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score - <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart"></canvas>
                     </div>
 
                     <div class="col-md-6 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score - <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart2"></canvas>
                     </div>
 
                     <div class="col-md-6 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score - <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart3"></canvas>
                     </div>
 
                     <div class="col-md-12 asset-detail-box col-gutters full-span">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart4" width="900" height="200"></canvas>
                     </div>
 
                     <div class="col-md-4 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart5"></canvas>
                     </div>
 
                     <div class="col-md-4 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart6"></canvas>
                     </div>
 
                     <div class="col-md-4 asset-detail-box col-gutters">
-                        <span class="rating-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
+                        <span class="asset-detail-box-title">Bitcoin network traffic | CA score <span class="success">2,998</span></span>
                         <span class="dropdown-menu">...</span>
                         <br>
                         <canvas id="myChart7"></canvas>
@@ -428,6 +428,9 @@
     <script src="scripts/bootstrap-slider.min.js"></script>
     <script src="scripts/Chart.bundle.js"></script>
     <script>
+        Chart.defaults.global.legend.labels.usePointStyle = true;
+        Chart.defaults.global.elements.rectangle.skipped = "bottom";
+
         var ctx = document.getElementById('myChart').getContext('2d');
         var chart = new Chart(ctx, {
             // The type of chart we want to create
@@ -435,17 +438,57 @@
 
             // The data for our dataset
             data: {
-                labels: ["Mon", "Tues", "Wed", "Thur", "Sat", "Sun", "July"],
+                labels: ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"],
                 datasets: [{
                     label: "Legend 1",
-                    backgroundColor: 'rgb(255, 99, 132,.5)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    borderWidth: 0,
+                    backgroundColor: 'rgb(118,221,251,.2)',
+                    borderColor: '#76ddfb',
                     data: [375, 200, 190, 275, 260, 350, 450, 425, 300, 375, 315, 250, 325, 300],
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: '#76ddfb'
                 }]
             },
-
             // Configuration options go here
-            options: {}
+            options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: false
+                        },
+                        ticks: {
+                            fontColor: "#fff",
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: true,
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                        },
+                    }]
+                },
+                elements: {
+                    line: {
+                        //removes curve from line chart
+                        tension: 0
+                    }
+                }
+            }
         });
 
         var ctx = document.getElementById('myChart2').getContext('2d');
@@ -455,70 +498,160 @@
 
             // The data for our dataset
             data: {
-                labels: ["Mon", "Tues", "Wed", "Thur", "Sat", "Sun", "July"],
+                labels: ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"],
                 datasets: [{
                     label: "Legend 1",
-                    backgroundColor: 'rgb(255, 99, 132,.5)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgb(118,221,251,.2)',
+                    borderColor: '#76ddfb',
                     data: [375, 200, 190, 275, 260, 350, 450, 425, 300, 375, 315, 250, 325, 300],
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: '#76ddfb',
+                    borderWidth: 0
                 }, {
                     label: "Legend 2",
-                    backgroundColor: '#7f53a8e2',
-                    borderColor: '#7f76ddfb',
+                    backgroundColor: 'rgb(44,130,190,.25)',
+                    borderColor: '#2c82be',
                     data: [200, 350, 90, 75, 360, 250, 150, 325, 375, 225, 160, 325, 125, 100],
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: '#76ddfb',
+                    borderWidth: 0
                 }]
             },
 
             // Configuration options go here
-            options: {}
+            options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: false,
+                            color: '#fff',
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        gridLines: {
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            padding: 16,
+                            fontColor: "#fff",
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                elements: {
+                    line: {
+                        //removes curve from line chart
+                        tension: 0
+                    }
+                }
+            }
         });
 
         var ctx = document.getElementById('myChart3').getContext('2d');
         var scatterChart = new Chart(ctx, {
             type: 'scatter',
             data: {
-                labels: ["Label 1", "Label 2", "Label 1", "label 4", "label 5"],
+                labels: ["Label 1", "Label 2"],
                 datasets: [{
-                    label: 'Legend 1',
+                    label: ['Legend 1'],
                     data: [{
-                        x: -10,
-                        y: 0,
-                    }, {
                         x: 0,
-                        y: 10
+                        y: 3,
                     }, {
-                        x: 10,
+                        x: 2,
+                        y: 3
+                    }, {
+                        x: 1,
                         y: 5
                     }, {
                         x: 4,
-                        y: 6
+                        y: 3
                     }, {
                         x: 3,
-                        y: 9
+                        y: 6
                     }],
-                    backgroundColor: '#53a8e2'
+                    backgroundColor: '#53a8e2',
+                    radius: [10, 6, 8, 4, 4]
                 }, {
-                    label: 'Legend 2',
+                    label: ['Legend 2'],
                     data: [{
-                        x: 10,
-                        y: 0,
+                        x: 0,
+                        y: 3,
                     }, {
                         x: 4,
-                        y: 10
+                        y: 7
                     }, {
                         x: 5,
-                        y: 10
+                        y: 1
                     }, {
                         x: 6,
                         y: 4
                     }, {
-                        x: 9,
+                        x: 6,
                         y: 3
                     }],
-                    backgroundColor: '#76ddfb'
+                    backgroundColor: '#76ddfb',
+                    radius: [4, 8, 6, 4, 10]
                 }],
             },
+
             options: {
+                layout: {
+                    padding: {
+                        top: 0,
+                        left: 10,
+                        bottom: 0,
+                        right: 40
+                    }
+                },
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        gridLines: {
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            offsetGridLines: true
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        gridLines: {
+                            color: '#fff',
+                            tickMarkLength: 0
+                        },
+                        ticks: {
+                            padding: 16,
+                            fontColor: "#fff",
+                            beginAtZero: true
+                        }
+                    }]
+                },
                 tooltips: {
                     callbacks: {
                         label: function(tooltipItem, data) {
@@ -537,88 +670,279 @@
 
             // The data for our dataset
             data: {
-                labels: ["Mon", "Tues", "Wed", "Thur", "Sat", "Sun", "July"],
+                labels: ["27;Feb", "28;Feb", "1;Mar", "2;Mar", "3;Mar", "4;Mar", "5;Mar", "6;Mar", "7;Mar", "8;Mar", "9;Mar", "10;Mar", "11;Mar", "12;Mar", "13;Mar", "14;Mar", "15;Mar", "16;Mar", "17;Mar", "18;Mar", "19;Mar", "20;Mar", "21;Mar"],
                 datasets: [{
-                    label: "Legend 1",
-                    backgroundColor: 'rgb(255, 99, 132,.5)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [375, 200, 190, 275, 260, 350, 450, 425, 300, 375, 315, 250, 325, 300],
+                    label: 'Daily Price',
+                    /*
+                                        xAxisID: 'xAxis1',*/
+                    backgroundColor: 'rgb(118,221,251,.2)',
+                    borderColor: '#76ddfb',
+                    data: [105, 100, 150, 130, 170, 200, 220, 310, 290, 250, 210, 215, 110, 50, 40, 100, 315, 430, 375, 215, 50, 150, 225],
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: '#76ddfb',
+                    borderWidth: 0
                 }]
             },
 
             // Configuration options go here
-            options: {}
+            options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        id: 'xAxis1',
+                        type: "category",
+                        gridLines: {
+                            display: false,
+                            color: '#fff',
+                        },
+                        ticks: {
+                            display: true,
+                            fontColor: "#fff",
+                            callback: function(label) {
+                                var day = label.split(";")[0];
+                                var month = label.split(";")[1];
+                                return day;
+                            }
+                        }
+                    }, {
+                        id: 'xAxis2',
+                        type: "category",
+                        gridLines: {
+                            drawOnChartArea: false, // only want the grid lines for one axis to show up
+                            drawBorder: false
+                        },
+                        ticks: {
+                            fontColor: "#fff",
+
+                            callback: function(label) {
+                                var day = label.split(";")[0];
+                                var month = label.split(";")[1];
+                                if (day === "1" || day === "28" || day === "30" || day === "31") {
+                                    return month;
+                                } else {
+                                    return "";
+                                }
+                            }
+                        }
+                    }, {
+                        display: false,
+                        gridLines: {
+                            display: false,
+                            color: '#fff',
+                        },
+                        scaleLabel: {
+                            display: false,
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: true,
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                            stepSize: 100
+                        },
+                        scaleLabel: {
+                            display: false
+                        }
+                    }],
+                },
+                tooltips: {
+                    mode: 'label',
+                    callbacks: {
+                        title: function(tooltipItem, data,) {
+                            var index = tooltipItem[0].index;
+                            var day = data.labels[index].split(';')[0];
+                            var month = data.labels[index].split(';')[1];
+                            
+                            return month + " " + day;
+                        },
+                        label: function(tooltipItem, data, index) {
+                            var label = data.datasets[0].label;
+                            var price = tooltipItem.yLabel;
+
+                            return label + " $" + price;
+
+                        }
+                    }
+                }
+            }
         });
 
         var ctx = document.getElementById('myChart5').getContext('2d');
         var myBarChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
                 datasets: [{
                     label: 'Dataset 1',
-                    backgroundColor: 'rgb(255, 99, 132,.5)',
-                    data: [0, 1, 2, 3, 4, 5, 6]
+                    backgroundColor: '#2C82BE',
+                    data: [0, 1, 2, 3, 4, 5, 6],
+                    borderWidth: 0
                 }, {
                     label: 'Dataset 2',
-                    backgroundColor: 'rgb(255, 99, 132,.75)',
-                    data: [9, 8, 7, 6, 5, 4, 3]
+                    backgroundColor: '#76DDFB',
+                    data: [9, 8, 7, 6, 5, 4, 3],
+                    borderWidth: 0
                 }, {
                     label: 'Dataset 3',
-                    backgroundColor: 'rgb(255, 99, 132,.25)',
-                    data: [3, 4, 5, 6, 7, 8, 9]
+                    backgroundColor: '#53ABE2',
+                    data: [3, 4, 5, 6, 7, 8, 9],
+                    borderWidth: 0
                 }]
             },
+            // Configuration options go here
             options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
                 scales: {
                     xAxes: [{
-                        stacked: true
+                        stacked: true,
+                        display: true,
+                        gridLines: {
+                            display: false,
+                            color: '#fff',
+                        },
+                        ticks: {
+                            fontColor: "#fff",
+                        },
+                        scaleLabel: {
+                            display: false,
+                        }
                     }],
                     yAxes: [{
-                        stacked: true
+                        stacked: true,
+                        display: true,
+                        gridLines: {
+                            display: true,
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                        },
+                        scaleLabel: {
+                            display: false
+                        }
                     }]
                 }
             }
         });
 
         var ctx = document.getElementById('myChart6').getContext('2d');
+        Chart.defaults.global.legend.labels.usePointStyle = true;
         var chart = new Chart(ctx, {
             // The type of chart we want to create
             type: 'doughnut',
 
             // The data for our dataset
             data: {
-                labels: ["Africa", "Asia", "Europe", "Latin America"],
+                labels: ["Legend 1", "Legend 2", "Legend 3", "Legend 4"],
                 datasets: [{
-                    label: "Population (millions)",
-                    backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"],
+                    backgroundColor: ["#2C82BE", "#53A8E2", "#76DDFB", "#DBECF8"],
                     borderColor: '#AA000000',
-                    data: [2478, 5267, 734, 784]
+                    data: [60, 4, 16, 20],
+                    hoverBorderWidth: 0,
                 }]
             },
-            options: {}
+            options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                tooltips: {
+                    callbacks: {
+                        title: function(tooltipItem, data,) {
+                            var index = tooltipItem[0].index;
+                            var legend = data.labels[index];
+                            console.log (legend)
+                            return legend;
+                        },
+                        label: function(tooltipItem, data, index) {
+                            var value = data.datasets[0].data[tooltipItem.index];
+                            var label = value + "%";
+                            return label;
+                        }
+                    }
+                }
+            }
         });
 
         var ctx = document.getElementById('myChart7').getContext('2d');
         var myBarChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
                 datasets: [{
                     label: 'Dataset 1',
-                    backgroundColor: 'rgb(255, 99, 132,.5)',
-                    data: [0, 1, 2, 3, 4, 5, 6]
+                    backgroundColor: '#2C82BE',
+                    data: [1950, 950, 900, 1400, 2100, 1600],
+                    borderWidth: 0
                 }, {
                     label: 'Dataset 2',
-                    backgroundColor: 'rgb(255, 99, 132,.75)',
-                    data: [9, 8, 7, 6, 5, 4, 3]
-                }, {
-                    label: 'Dataset 3',
-                    backgroundColor: 'rgb(255, 99, 132,.25)',
-                    data: [3, 4, 5, 6, 7, 8, 9]
+                    backgroundColor: '#53ABE2',
+                    data: [1000, 500, 1200, 1050, 500, 1200],
+                    borderWidth: 0
                 }]
             },
-            options: {}
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: true,
+                    borderWidth: 0,
+                    labels: {
+                        fontColor: '#fff'
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: false,
+                            color: '#fff',
+                        },
+                        ticks: {
+                            fontColor: "#fff",
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        gridLines: {
+                            display: true,
+                            color: '#fff',
+                            tickMarkLength: 0,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            padding: 8,
+                            fontColor: "#fff",
+                            beginAtZero: true,
+                            stepSize: 500,
+                        },
+                    }]
+                }
+            }
         });
     </script>
 </body>
