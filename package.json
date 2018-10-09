@@ -2,13 +2,13 @@
   "name": "NSIF",
   "version": "1.0.0",
   "authors": [
-    "Deepak Shinde <deepak.shinde@Mastercard.com>"
+    "Michael Torpea"
   ],
-  "description": "Front-end automation for Mastercard Connect - NSIF",
+  "description": "Front-end for Crypto Allegro",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://fusion.mastercard.int/stash/projects/DCONS/repos/uxg-nsif-dev"
+    "url": ""
   },
   "readme": "README.md",
   "ignore": [
